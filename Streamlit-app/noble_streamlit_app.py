@@ -15,7 +15,7 @@ st.markdown("Analyze trends and insights from Nobel Prize history.")
 # Load and preprocess data
 @st.cache_data
 def load_data():
-    df = pd.read_csv('nobel_prize_data.csv')
+    df = pd.read_csv('Streamlit-app/nobel_prize_data.csv')
     df['birth_date'] = pd.to_datetime(df['birth_date'], errors='coerce')
     df[['num', 'den']] = df['prize_share'].str.split('/', expand=True)
     df['share_pct'] = pd.to_numeric(df['num']) / pd.to_numeric(df['den'])
