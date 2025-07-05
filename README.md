@@ -21,7 +21,7 @@ Use the sidebar of streamlit app to filter the dataset and export it as a .csv f
 
 ---
 ## Screenshots
-Screenshot of the app/dashboard can be found in the screenshots/ folder..
+A few screenshots of the app/dashboard can be found in the screenshots/ folder..
 
 ---
 ## Dataset
