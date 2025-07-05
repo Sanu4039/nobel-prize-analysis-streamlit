@@ -16,7 +16,13 @@ An interactive Streamlit web app that enables users to explore and analyze histo
 - **CSV Export:** Download the filtered dataset directly.
 
 ---
+## Export Feature
+Use the sidebar of streamlit app to filter the dataset and export it as a .csv file for external use.
 
+---
+## Screenshots
+
+---
 ## Dataset
 
 The app uses the `nobel_prize_data.csv` dataset which includes:
